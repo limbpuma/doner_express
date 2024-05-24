@@ -1,0 +1,37 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import About from '../sections/About.astro';
+import Menu from '../sections/Menu.astro';
+import Reviews from '../sections/Reviews.astro';
+import Showcase from '../sections/Showcase.astro';
+import Video from '../sections/Video.astro';
+import Team from '../sections/Team.astro';
+import { getI18N } from '../../utils/i18n';
+import Features from '../sections/Features.astro';
+import WhatsAppButton from '../WhatsAppButton.jsx'; // Ensure this path is correct
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<Layout 
+  title={i18n.SEO_TITLE}
+  description={i18n.SEO_DESCRIPTION}
+>
+  <main>
+    <About />
+    <Features />
+    <Menu />
+    <Reviews />
+    <WhatsAppButton 
+	chatMessage={i18n.WHATSAPP_MESSAGE}
+	statusMessage={i18n.STATUS_MESSAGE}
+	client:load />
+    <Showcase />
+    <Team />
+    <Video />
+  </main>
+</Layout>
+
+<style>
+  /* Your styles here */
+</style>

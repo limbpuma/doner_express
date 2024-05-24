@@ -1,0 +1,53 @@
+---
+import { getI18N } from '../../utils/i18n';
+const { currentLocale} = Astro
+const i18n = getI18N({currentLocale});
+---
+<div id="about_section" class="container about-section pb-20 mx-auto px-4 text-white">
+  <div class="flex flex-wrap justify-center items-center">
+    <!-- Image Column -->
+    <div class="w-full md:w-5/12 px-4 mb-6 md:mb-0">
+      <div class="relative overflow-hidden rounded-lg shadow-lg">
+        <img src="img/express/donner_image21.jpg" alt="About Us Image" class="max-w-full mx-auto hover:scale-105 transition-transform duration-300 ">
+      </div>
+    </div>
+
+    <!-- Content Column -->
+    <div class="w-full md:w-7/12 px-4">
+      <div class="ml-0 md:ml-12">
+        <div class="mb-6">
+          <span class="text-sm font-semibold uppercase text-orange-500">{i18n.ABOUT.SECTION_TITLE}</span>
+        
+          <h2 class="text-3xl font-bold mt-1 leading-tight tracking-tight">{i18n.ABOUT.SUBTITLE}</h2>
+          <p class="mt-2 text-gray-300">{i18n.ABOUT.DESCRIPTION}</p>
+        </div>
+
+        <div class="mb-6">
+          <div class="flex items-baseline">
+            <h2 class="text-5xl font-bold text-orange-500">{i18n.ABOUT.EXPERIENCE_TITLE}<sup class="text-2xl"></sup></h2>
+            <p class="ml-4 text-lg text-gray-300">{i18n.ABOUT.EXPERIENCE_SUBTITLE}</p>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <p>{i18n.ABOUT.ADDITIONAL_TEXT1}</p><br>
+          <p>{i18n.ABOUT.ADDITIONAL_TEXT2}</p>
+        </div>
+
+        <div class="flex items-center space-x-4">
+          <div class="w-24 mr-4">
+            <img src="../img/about/express_whatsapp.jpg" alt="Jemi D. William" class="shadow-lg rounded-full">
+          </div>
+          <div>
+            <h4 class="font-semibold">{i18n.ABOUT.FOUNDER.NAME}</h4>
+            <span class="text-sm text-gray-500">{i18n.ABOUT.FOUNDER.ROLE}</span>
+          </div>
+          <div class="ml-12">
+            <img src="img/about/signature.png" alt="signature" class="h-12">
+          </div>
+          <!--I have omitted the description but its is available in json -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

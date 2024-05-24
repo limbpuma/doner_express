@@ -1,0 +1,126 @@
+---
+import Navbar from '../components/sections/Navbar.astro';
+import Footer from '../components/sections/Footer.astro';
+import { getLangFromUrl } from "../utils/i18n/utils";
+//import CookieConsent from '../components/CookieConsent.jsx';
+
+
+interface Props {
+  description: string
+  title: string
+}
+
+const { description, title } = Astro.props
+const lang = getLangFromUrl(Astro.url);
+---
+
+<!doctype html>
+<html lang={lang} data-theme="night">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link href="./output.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <title>{title}</title>
+    
+</head>
+<body class="flex flex-col min-h-screen">
+    <Navbar />
+        <slot />
+    <Footer />
+</body>
+</html>
+<style is:global>
+	:root {
+	  /* Color Palette */
+	  --color-black: #000000;
+	  --color-orange: #FFA500; /* More vibrant for web readability */
+	  --color-yellow: #FFD700; /* New vibrant yellow for highlighting features */
+	  --color-white: #FFFFFF;
+	  --color-grey: #A0A0A0; /* For less emphasized text */
+	  --color-dark-grey: #333333; /* For backgrounds or subdued text */
+	  --color-light-grey: #F2F2F2; /* For softer background shades */
+	  --color-deep-orange: #FF8C00; /* Deeper orange for accents */
+  
+	  /* Typography */
+	  --font-primary: 'Roboto', sans-serif;
+	  --font-secondary: 'Montserrat', sans-serif;
+	  --font-fancy: 'Dancing Script', cursive; /* For decorative text */
+  
+	  /* Font Sizes */
+	  --font-size-base: 1rem; /* 16px */
+	  --font-size-large: 1.5rem; /* 24px */
+	  --font-size-small: 0.875rem; /* 14px */
+	  --font-size-xlarge: 2rem; /* 32px for large headers */
+	  --font-size-responsive: calc(1rem + 0.5vw); /* Responsive font size */
+  
+	  /* Spacing */
+	  --space-1: 0.5rem; /* 8px */
+  
+	  /* Borders and Rounds */
+	  --border-radius: 0.5rem; /* Standard border radius */
+	  --border-color: var(--color-light-grey);
+  
+	  /* Shadows */
+	  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+	  --box-shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for hover effects */
+  
+	  /* Hover Effects */
+	  --hover-brightness: brightness(0.9);
+	}
+  
+	/* Base body styles */
+	body {
+	  background-color: var(--color-black);
+	  color: var(--color-white);
+	  font-family: var(--font-primary);
+	  font-size: var(--font-size-base);
+	  line-height: 1.5;
+	}
+  
+	/* Header styles */
+	h1, h2, h3, h4, h5, h6 {
+	  font-family: var(--font-secondary);
+	  color: var(--color-orange);
+	}
+  
+	/* Link styles */
+	a {
+	  color: var(--color-orange);
+	  text-decoration: none;
+	  transition: color 0.3s ease-in-out, filter 0.3s ease-in-out;
+	}
+  
+	a:hover {
+	  color: var(--color-grey);
+	  filter: var(--hover-brightness);
+	}
+  
+	/* Specific styles for list item links */
+	li a {
+	  font-family: var(--font-secondary);
+	  font-size: var(--font-size-small);
+	  color: var(--color-white);
+	  padding: var(--space-1) var(--space-2);
+	  border-radius: var(--border-radius);
+	  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+	}
+  
+	li a:hover {
+	  background-color: var(--color-dark-grey);
+	  color: var(--color-deep-orange);
+	}
+  </style>
+  
+  
+
+
+
+  
+  
+  
+  

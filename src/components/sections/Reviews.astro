@@ -1,0 +1,43 @@
+---
+// Importa la función para obtener traducciones y define las propiedades locales.
+import { getI18N } from '../../utils/i18n';
+const { currentLocale } = Astro;
+const i18n = getI18N({currentLocale});
+---
+
+<div class="reviews-section pb-20 relative bg-cover bg-center" style="background-image: url('/img/bg/test-bg.png');">
+    <!-- Gradient overlay -->
+    <div class="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-100"></div>
+    
+    <!-- Content centered with a max width -->
+    <div class="container mx-auto px-4 text-center relative">
+        <div class="w-full lg:w-2/3 mx-auto mb-12">
+            <span class="text-sm font-semibold uppercase text-orange-500">{i18n.REVIEWS.SECTION_TITLE}</span>
+            <h2 class="text-3xl font-bold mt-1 leading-tight tracking-tight uppercase">{i18n.REVIEWS.DESCRIPTION}</h2>
+        </div>
+  
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Dynamic Testimonial Cards -->
+            {i18n.REVIEWS.REVIEWS_LIST.map((review) => (
+                <div class="bg-gray-800 bg-opacity-90 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 hover:scale-105">
+                    <div class="flex flex-col items-center lg:flex-row lg:items-start">
+                        <img src={`/img/testimonial/${review.IMAGE}`} alt={review.NAME} class="w-24 h-24 rounded-full mb-4 lg:mb-0 lg:mr-4 object-cover">
+
+                        <div class="text-center lg:text-left">
+                            <h6 class="text-lg font-semibold text-white">{review.NAME}</h6>
+                            <span class="text-gray-400">{review.ROLE}</span>
+                            <div class="mt-4 flex justify-center lg:justify-start space-x-1 text-yellow-500">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="text-gray-300 text-center lg:text-left mt-4">{review.COMMENT}</p>
+                        </div>
+                    </div>
+                </div>
+            ))}
+        </div>
+    </div>
+</div>
