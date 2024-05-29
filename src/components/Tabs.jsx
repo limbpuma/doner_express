@@ -24,7 +24,7 @@ const Tabs = ({ tabs = {}, products = {} }) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {(products[tab] || []).map((product, index) => (
                 <div key={index} className="meal-container bg-gray-800 rounded-lg p-4 shadow-lg flex justify-between items-center">
-                  <div className="meal-content flex-1 mr-4">
+                  <div className="meal-content  mr-4">
                     <h5 className="text-lg font-bold text-white">{product.NAME}</h5>
                     <p className="text-sm text-gray-400">{product.DESCRIPTION}</p>
                   </div>

@@ -10,44 +10,78 @@ const i18n = getI18N({ currentLocale });
   <div class="absolute inset-0 bg-cover bg-center before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:to-black z-0" style="background-image: url('/img/bg/header-bg.png')">
   </div>
   
-  <div class="relative z-10">
-    <div class="navbar bg-transparent container mx-auto px-4">
+  <div class="relative z-20">
+    <div class="navbar bg-gray-900 fixed top-0 left-0 right-0 container mx-auto px-4">
       <div class="navbar-start">
+        <!-- Mobile Menu -->
         <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
-          </div>
+          </label>
           <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a href="../">{i18n.NAVBAR.ITEM1}</a></li>
+            <li><a href="/">{i18n.NAVBAR.ITEM1}</a></li>
             <li><a href="#about_section">{i18n.NAVBAR.ITEM2}</a></li>
             <li><a href="#menu_section">{i18n.NAVBAR.ITEM3}</a></li>
-            <li><a href="#info_section">{i18n.NAVBAR.ITEM4}</a>
-            
-            <li><LanguageSelector /></li>
+            <li><a href="#info_section">{i18n.NAVBAR.ITEM4}</a></li>
+            <li>
+              <details>
+                <summary>Legal</summary>
+                <ul class="p-2">
+                  <li>
+                    <a href={currentLocale === 'en' ? '/legal-advice.en' : '/legal-advice.de'} class="text-gray-400 hover:text-orange-500 mr-4">{i18n.FOOTER.ABOUT.IMPRINT.TEXT}</a>
+                  </li>
+                  <li>
+                    <a href={currentLocale === 'en' ? '/privacy-policy.en' : '/privacy-policy.de'} class="text-gray-400 hover:text-orange-500 mr-4">{i18n.FOOTER.ABOUT.PRIVACY.TEXT}</a>
+                  </li>
+                  <li>
+                    <a href={currentLocale === 'en' ? '/abg-policy.en' : '/abg-policy.de'} class="text-gray-400 hover:text-orange-500">{i18n.FOOTER.ABOUT.TERMS.TEXT}</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
           </ul>
         </div>
-        <a class="font-bold uppercase text-xl">Express Dönner</a>
+        <!-- End Mobile Menu -->
+        <a class="font-bold uppercase text-xl">Express Döner</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
-          <li><a href="../">{i18n.NAVBAR.ITEM1}</a></li>
+          <li><a href="/">{i18n.NAVBAR.ITEM1}</a></li>
           <li><a href="#about_section">{i18n.NAVBAR.ITEM2}</a></li>
           <li><a href="#menu_section">{i18n.NAVBAR.ITEM3}</a></li>
           <li><a href="#info_section">{i18n.NAVBAR.ITEM4}</a></li>
-          
+          <li>
+            <details>
+              <summary>Legal</summary>
+              <ul class="p-2">
+                <li>
+                  <a href={currentLocale === 'en' ? '/legal-advice.en' : '/legal-advice.de'} class="text-gray-400 hover:text-orange-500 mr-4">{i18n.FOOTER.ABOUT.IMPRINT.TEXT}</a>
+                </li>
+                <li>
+                  <a href={currentLocale === 'en' ? '/privacy-policy.en' : '/privacy-policy.de'} class="text-gray-400 hover:text-orange-500 mr-4">{i18n.FOOTER.ABOUT.PRIVACY.TEXT}</a>
+                </li>
+                <li>
+                  <a href={currentLocale === 'en' ? '/abg-policy.en' : '/abg-policy.de'} class="text-gray-400 hover:text-orange-500">{i18n.FOOTER.ABOUT.TERMS.TEXT}</a>
+                </li>
+              </ul>
+            </details>
+          </li>
           <li><LanguageSelector /></li>
         </ul>
       </div>
-      <div class="navbar-end">
-        <a href="tel:+49 1738258352" class="btn text-orange-400">Contact</a>
+      <div class="navbar-end flex items-center">
+        <a href="tel:+49 1738258352" class="btn text-orange-400">{i18n.NAVBAR.CONTACT}</a>
+        <div class="ml-2 lg:hidden">
+          <LanguageSelector />
+        </div>
       </div>
     </div>
   </div>
 
   <!-- Hero Content -->
-  <div class="container mx-auto px-4 pt-[80px] relative z-10">
+  <div class="container mx-auto px-4 pt-[120px] relative z-10">
     <Hero />
   </div>
 </div>

@@ -1,7 +1,7 @@
 {
   "SEO_TITLE": "Express Döner - Authentic Döner Experience in Dortmund Scharnhorst",
   "SEO_DESCRIPTION": "Enjoy fresh and traditional Döner dishes at Express Döner in Dortmund Scharnhorst. Perfect for a family meal or a quick and delicious bite on the go.",
-  "WHATSAPP_MESSAGE": "Hello, do you need to reserve a table or order food? Just send me a message...",
+  "WHATSAPP_MESSAGE": "Hello, do you need to reserve a table or order food? Send me a message...",
   "STATUS_MESSAGE": "Typically replies within a few minutes, Mo-Su 10am-10pm",
   "COOKIE_CONSENT": {
     "MESSAGE": "This website uses cookies to improve user experience.",
@@ -13,7 +13,8 @@
     "ITEM1": "Home",
     "ITEM2": "About Us",
     "ITEM3": "Menu",
-    "ITEM4": "Info"
+    "ITEM4": "Info",
+    "CONTACT": "Contact"
   },
   "HERO": {
     "TITLE": "Express Döner",

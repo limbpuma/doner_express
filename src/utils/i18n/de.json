@@ -1,7 +1,7 @@
 {
     "SEO_TITLE": "Express Döner - Authentisches Döner-Erlebnis in Dortmund Scharnhorst",
     "SEO_DESCRIPTION": "Genießen Sie bei Express Döner in Dortmund Scharnhorst frische und traditionelle Dönergerichte. Perfekt für eine Mahlzeit mit der Familie oder eine schnelle und köstliche Speise unterwegs.",
-    "WHATSAPP_MESSAGE": "Hallo, möchtest du einen Tisch reservieren oder Essen bestellen? Schreibe mir einfach eine Nachricht...",
+    "WHATSAPP_MESSAGE": "Hallo, möchtest du einen Tisch reservieren oder Essen bestellen? Schreibe mir eine Nachricht...",
     "STATUS_MESSAGE": "Antwortet in wenigen Minuten, Mo-So 10-22 Uhr",
     "COOKIE_CONSENT": {
       "MESSAGE": "Diese Website verwendet Cookies, um die Benutzererfahrung zu verbessern.",
@@ -13,7 +13,8 @@
       "ITEM1": "Startseite",
       "ITEM2": "Über uns",
       "ITEM3": "Speisekarte",
-      "ITEM4": "Info"
+      "ITEM4": "Info",
+      "CONTACT": "Kontakt"
     },
     "HERO": {
       "TITLE": "Express Döner",
