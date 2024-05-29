@@ -1,87 +1,85 @@
 ---
-title: "AGBs"
+title: "Terms and Conditions"
 layout: ../layouts/MarkdownLayout.astro
 ---
 
-# General Terms and Conditions (AGBs)
 
-## 1. Scope of Application
+# Allgemeine Geschäftsbedingungen (AGB)
 
-These General Terms and Conditions (AGBs) apply to all services provided by Express Döner, located at Gleiwitzstraße 269A, 44328 Dortmund. By using our website or contacting us via phone or WhatsApp, you agree to these terms and conditions.
+## 1. Geltungsbereich
 
-## 2. Services Offered
+Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Dienstleistungen von Express Döner, Gleiwitzstraße 269A, 44328 Dortmund. Durch die Nutzung unserer Website oder die Kontaktaufnahme per Telefon oder WhatsApp stimmen Sie diesen Bedingungen zu.
 
-Express Döner offers information about our menu, business location, and contact options via phone and WhatsApp. Customers can reserve tables or place orders for pickup through these communication channels. Payment is made directly at the location.
+## 2. Angebotene Dienstleistungen
 
-## 3. Reservation and Ordering
+Express Döner bietet Informationen zu unserem Menü, Standort und Kontaktmöglichkeiten per Telefon und WhatsApp. Kunden können Tische reservieren oder Bestellungen zur Abholung über diese Kommunikationskanäle aufgeben. Die Bezahlung erfolgt direkt vor Ort.
 
-### Reservations
+## 3. Reservierung und Bestellung
 
-- Customers can reserve tables by contacting us via phone or WhatsApp.
-- Reservations are confirmed only after a response from our team.
-- In case of any changes or cancellations, please inform us as soon as possible via the same communication channels.
+### Reservierungen
 
-### Orders
+- Kunden können Tische per Telefon oder WhatsApp reservieren.
+- Reservierungen werden erst nach einer Bestätigung durch unser Team wirksam.
+- Bei Änderungen oder Stornierungen informieren Sie uns bitte so schnell wie möglich über die gleichen Kommunikationskanäle.
 
-- Customers can place orders for pickup by contacting us via phone or WhatsApp.
-- Orders are confirmed only after a response from our team.
-- Please specify any special requirements or allergies at the time of placing the order.
+### Bestellungen
 
-## 4. Prices and Payment
+- Kunden können Bestellungen zur Abholung per Telefon oder WhatsApp aufgeben.
+- Bestellungen werden erst nach einer Bestätigung durch unser Team wirksam.
+- Bitte geben Sie besondere Anforderungen oder Allergien bei der Bestellung an.
 
-- All prices listed on our website and communicated via phone or WhatsApp are in Euros (€).
-- Payment for orders and reservations is made directly at our location at the time of service.
-- We accept cash and major credit/debit cards as payment methods.
+## 4. Preise und Zahlung
 
-## 5. Privacy Policy
+- Alle auf unserer Website und per Telefon oder WhatsApp mitgeteilten Preise sind in Euro (€) angegeben.
+- Die Bezahlung für Bestellungen und Reservierungen erfolgt direkt vor Ort.
+- Wir akzeptieren Barzahlung sowie gängige Kredit- und Debitkarten als Zahlungsmethoden.
 
-Our privacy policy, which is compliant with the General Data Protection Regulation (GDPR), can be found on our website. It outlines how we collect, use, and protect your personal data.
+## 5. Datenschutzerklärung
 
-## 6. Data Collection and Usage
+Unsere Datenschutzerklärung, die den Anforderungen der Datenschutz-Grundverordnung (DSGVO) entspricht, finden Sie auf unserer Website. Sie beschreibt, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen.
 
-### Contact and Reservations
+## 6. Datenerfassung und Nutzung
 
-- When you contact us via phone or WhatsApp, we collect and process your personal data (such as name, contact information, and reservation details) to manage your reservations and orders.
-- We do not share your personal data with third parties unless required by law.
+### Kontakt und Reservierungen
 
-### Cookies and Website Analytics
+- Wenn Sie uns per Telefon oder WhatsApp kontaktieren, erfassen und verarbeiten wir Ihre persönlichen Daten (wie Name, Kontaktdaten und Reservierungsdetails), um Ihre Reservierungen und Bestellungen zu verwalten.
+- Wir geben Ihre persönlichen Daten nicht an Dritte weiter, es sei denn, dies ist gesetzlich vorgeschrieben.
 
-- Our website uses cookies to enhance user experience and to collect anonymous analytics data. 
-- By using our website, you consent to the use of cookies as described in our privacy policy.
+### Cookies und Website-Analyse
 
-## 7. Liability
+- Unsere Website verwendet Cookies, um die Benutzererfahrung zu verbessern und anonyme Analysedaten zu sammeln.
+- Durch die Nutzung unserer Website stimmen Sie der Verwendung von Cookies gemäß unserer Datenschutzerklärung zu.
 
-- Express Döner is not liable for any direct or indirect damages resulting from the use of our website or services.
-- We strive to keep the information on our website accurate and up-to-date but do not guarantee its completeness or accuracy.
+## 7. Haftung
 
-## 8. Amendments
+- Express Döner haftet nicht für direkte oder indirekte Schäden, die aus der Nutzung unserer Website oder Dienstleistungen entstehen.
+- Wir bemühen uns, die Informationen auf unserer Website genau und aktuell zu halten, übernehmen jedoch keine Garantie für deren Vollständigkeit oder Richtigkeit.
 
-- We reserve the right to amend these General Terms and Conditions at any time.
-- Any changes will be posted on our website, and it is the customer's responsibility to review them periodically.
+## 8. Änderungen
 
-## 9. Applicable Law
+- Wir behalten uns das Recht vor, diese Allgemeinen Geschäftsbedingungen jederzeit zu ändern.
+- Änderungen werden auf unserer Website veröffentlicht, und es liegt in der Verantwortung des Kunden, diese regelmäßig zu überprüfen.
 
-- These terms and conditions are governed by the laws of the Federal Republic of Germany.
-- Any disputes arising from these terms and conditions will be subject to the jurisdiction of the courts in Dortmund, Germany.
+## 9. Anwendbares Recht
 
-## 10. Contact Information
+- Diese Allgemeinen Geschäftsbedingungen unterliegen dem Recht der Bundesrepublik Deutschland.
+- Alle Streitigkeiten, die sich aus diesen Bedingungen ergeben, unterliegen der Gerichtsbarkeit der Gerichte in Dortmund, Deutschland.
 
-For any questions or concerns regarding these terms and conditions, please contact us:
+## 10. Kontaktinformationen
+
+Bei Fragen oder Anliegen zu diesen Allgemeinen Geschäftsbedingungen kontaktieren Sie uns bitte:
 
 **Express Döner**  
 Gleiwitzstraße 269A  
 44328 Dortmund  
-**Phone:** +49 173 8258352  
-**Email:** kocakmehmetemin085@gmail.com
+**Telefon:** +49 173 8258352  
+**E-Mail:** info@expressdoener.de
 
-## 11. Severability Clause
+## 11. Salvatorische Klausel
 
-If any provision of these General Terms and Conditions is found to be invalid or unenforceable, the remaining provisions will continue to be valid and enforceable.
+Sollte eine Bestimmung dieser Allgemeinen Geschäftsbedingungen ungültig oder nicht durchsetzbar sein, bleiben die übrigen Bestimmungen weiterhin gültig und durchsetzbar.
 
 ---
 
-### Source:
-This AGBs was created following the guidelines provided by [e-recht24.de](https://www.e-recht24.de) and tailored to the specific needs of Express Döner.
-
-
-[Zurück zur Startseite](../)
+### Quelle:
+Diese AGB wurde gemäß den Richtlinien von [e-recht24.de](https://www.e-recht24.de) erstellt und auf die spezifischen Bedürfnisse von Express Döner zugeschnitten.

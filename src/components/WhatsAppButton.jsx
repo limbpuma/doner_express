@@ -5,7 +5,7 @@ const WhatsAppButton = ({ chatMessage, statusMessage }) => {
   const mobileStyles = `
     @media (max-width: 768px) {
       .floating-whatsapp-chatbox {
-        height: 350px !important;
+        height: 350px;
       }
     }
   `;

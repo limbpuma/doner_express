@@ -1,6 +1,7 @@
 ---
 const { title } = Astro.props;
-const logoUrl = "/img/logo/logo.png"; // Ensure the logo path is correct
+const logoUrl = "/img/logo/logo.png";
+import Footer from "@/components/sections/Footer.astro";
 ---
 
 <html>
@@ -10,15 +11,15 @@ const logoUrl = "/img/logo/logo.png"; // Ensure the logo path is correct
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> <!-- For icons if needed -->
   </head>
-  <body class="bg-gray-900 text-white font-sans leading-normal tracking-normal">
-    <header class="bg-gray-800">
+  <body class="bg-black text-white font-sans leading-normal tracking-normal">
+    <header class="bg-gray-900">
       <div class="container mx-auto px-4 py-4 flex justify-between items-center">
         <a href="/" class="flex items-center">
           <img src={logoUrl} alt="Express Döner Logo" class="h-12 mr-3">
-          <span class="text-xl font-bold text-orange-500">Express Döner</span>
+          <span class="text-xl font-bold text-orange-400">Express Döner</span>
         </a>
         <nav class="space-x-4">
-          <a href="../" class="text-gray-300 hover:text-orange-500">Home</a>
+          <a href="../" class="font-bold text-orange-400 hover:text-orange-600">Home</a>
         </nav>
       </div>
     </header>
@@ -30,17 +31,12 @@ const logoUrl = "/img/logo/logo.png"; // Ensure the logo path is correct
         </div>
       </article>
       <div class="mt-8 text-center">
-        <a href="/" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">
+        <a href="/" class="inline-block bg-orange-400 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">
           Back to Home
         </a>
       </div>
     </main>
-    <footer class="bg-gray-800 mt-8">
-      <div class="container mx-auto px-4 py-4 text-center text-gray-400">
-        <p>&copy; 2024 Express Döner. All rights reserved.</p>
-        <p>Developed by Your Developer</p>
-      </div>
-    </footer>
+  <Footer/>
   </body>
 </html>
 
