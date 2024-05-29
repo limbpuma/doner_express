@@ -11,5 +11,5 @@ export default defineConfig({
       prefixDefaultLocale: false
     }
   },
-  integrations: [tailwind(), react()]
+  integrations: [tailwind(), react()],
 });

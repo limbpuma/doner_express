@@ -2,7 +2,6 @@
 import Navbar from '../components/sections/Navbar.astro';
 import Footer from '../components/sections/Footer.astro';
 import { getLangFromUrl } from "../utils/i18n/utils";
-//import CookieConsent from '../components/CookieConsent.jsx';
 
 
 interface Props {
@@ -21,7 +20,7 @@ const lang = getLangFromUrl(Astro.url);
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link href="./output.css" rel="stylesheet">
+
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
