@@ -32,13 +32,13 @@
     "ADDITIONAL_TEXT1":"At Express Döner, we pride ourselves on providing our customers with only the freshest and finest ingredients. Our goal is to offer you an unforgettable culinary experience.",
     "ADDITIONAL_TEXT2":"Our team consists of experienced chefs who are passionate about preparing authentic döner dishes. Visit us and experience the difference.",
     "FOUNDER": {
-      "NAME": "Mehmet Kocak",
+      "NAME": "Mehmet Emin Kocak",
       "ROLE": "Founder",
-      "DESCRIPTION": "Mehmet Kocak founded Express Döner with a vision to offer high-quality, fresh ingredients directly from Dortmund. His passion for good food and excellent service has made Express Döner what it is today."
+      "DESCRIPTION": "Mehmet founded Express Döner with a vision to offer high-quality, fresh ingredients directly from Dortmund. His passion for good food and excellent service has made Express Döner what it is today."
     },
     "FOUNDER_IMAGE": {
       "SRC": "img/about/avatar.png",
-      "ALT": "Mehmet Kocak"
+      "ALT": "Mehmet Emin Kocak"
     },
     "SIGNATURE_IMAGE": {
       "SRC": "img/about/signature.png",
@@ -135,7 +135,7 @@
   "VIDEO": {
     "TITLE": "Discover Express Döner",
     "DESCRIPTION": "Experience the authentic taste of Express Döner.",
-    "BUTTON": "Contact Us on WhatsApp",
+    "BUTTON": "Find Us Here!",
     "SUBTITLE": "Quality and Authenticity",
     "INTRO": "Watch our chefs create the best Döner in Dortmund."
   },
@@ -151,7 +151,7 @@
             "URL": "https://www.expressdoener.de/datenschutz"
         },
         "TERMS": {
-            "TEXT": "Terms and Conditions",
+            "TEXT": "Terms & Conditions",
             "URL": "https://www.expressdoener.de/agb"
         }
     },
@@ -164,7 +164,7 @@
             "THURSDAY": "10:00 - 22:00",
             "FRIDAY": "10:00 - 22:00",
             "SATURDAY": "10:00 - 22:00",
-            "SUNDAY": "10:00 - 21:00"
+            "SUNDAY": "10:00 - 22:00"
         }
     },
     "CONTACT": {
@@ -172,7 +172,7 @@
       "GET_IN_TOUCH": "Kontaktieren Sie uns",
       "ADDRESS": "Gleiwitzstraße 269A, 44328 Dortmund",
       "ADDRESS_LABEL": "Adresse",
-      "PHONE": "+49 123 456 7890",
+      "PHONE": "0231 92 88 11 55",
       "EMAIL": "kocakmehmetemin085@gmail.com"
     },
     "SOCIAL_MEDIA": {

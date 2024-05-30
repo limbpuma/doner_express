@@ -44,7 +44,10 @@ const i18n = getI18N({ currentLocale });
           </ul>
         </div>
         <!-- End Mobile Menu -->
-        <a class="font-bold uppercase text-xl">Express Döner</a>
+        <a class="flex items-center  space-x-2 font-bold uppercase text-xl animate-bounce-slow">
+          <i class="fas fa-utensils text-yellow-500 text-3xl mb-2"></i>
+          <span>Express Döner</span>
+        </a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
@@ -72,7 +75,7 @@ const i18n = getI18N({ currentLocale });
         </ul>
       </div>
       <div class="navbar-end flex items-center">
-        <a href="tel:+49 1738258352" class="btn text-orange-400">{i18n.NAVBAR.CONTACT}</a>
+        <a href="tel:+49 023192881155" class="btn text-orange-400">{i18n.NAVBAR.CONTACT}</a>
         <div class="ml-2 lg:hidden">
           <LanguageSelector />
         </div>

@@ -27,7 +27,7 @@ const CustomCookieConsent = ({ translations }) => {
   }
 
   return (
-    <div className="fixed bottom-0 w-full bg-gray-900 text-white p-8 flex justify-between items-center shadow-lg rounded-md z-50">
+    <div className="fixed bottom-0 w-full bg-gray-900 text-white p-8 flex flex-col sm:flex-row justify-between items-center shadow-lg rounded-md z-50">
       <div className="flex-1 mr-4">
         {translations.message}{" "}
         <span className="text-sm">{translations.moreInfo}</span>
