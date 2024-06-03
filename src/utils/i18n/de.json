@@ -37,7 +37,7 @@
         "DESCRIPTION":"Mehmet hat Express Döner mit der Vision gegründet, qualitativ hochwertige und frische Zutaten direkt aus Dortmund anzubieten. Seine Leidenschaft für gutes Essen und exzellenten Service hat Express Döner zu dem gemacht, was es heute ist."
       },
       "FOUNDER_IMAGE": {
-        "SRC": "img/about/avatar.png",
+        "SRC": "img/about/avatar.webp",
         "ALT": "Mehmet Emin Kocak"
       },
       "SIGNATURE_IMAGE": {
@@ -83,19 +83,19 @@
           "NAME": "ANNA SCHMIDT",
           "ROLE": "Stammkundin",
           "COMMENT": "Ich liebe die frischen Zutaten und die aufmerksame Bedienung bei Express Döner. Ein Muss für jeden in Dortmund!",
-          "IMAGE": "avatar01.jpg"
+          "IMAGE": "avatar01.webp"
         },
         {
           "NAME": "TOMASZ KOWALSKI",
           "ROLE": "Polnischer Gast",
           "COMMENT": "Das beste Döner, das ich außerhalb Polens gefunden habe. Großartig für einen schnellen und leckeren Snack.",
-          "IMAGE": "avatar02.jpg"
+          "IMAGE": "avatar02.webp"
         },
         {
           "NAME": "EMEL AKTAS",
           "ROLE": "Student",
           "COMMENT": "Wir fühlen uns hier wie zu Hause. Die Döner sind genau richtig gewürzt und erinnern uns an die Türkei.",
-          "IMAGE": "avatar03.jpg"
+          "IMAGE": "avatar03.webp"
         }
       ]
     }
@@ -104,14 +104,14 @@
       "SECTION_TITLE": "Unser Menü",
       "DESCRIPTION": "Erkunden Sie unser vielfältiges und köstliches Angebot.",
       "PRODUCTS": [
-        { "NAME": "Döner Kebab", "IMAGE": "showcase1.jpg", "DESCRIPTION": "Zutaten: Fladenbrot, Dönerfleisch, Salat, Tomaten, Zwiebeln, Soße" },
-        { "NAME": "Döner Drehspieß", "IMAGE": "showcase2.jpg", "DESCRIPTION": "Perfekt gegartes Fleisch vom Drehspieß" },
-        { "NAME": "Gemüse-Wrap", "IMAGE": "showcase3.jpg", "DESCRIPTION": "Zutaten: Tortilla, frisches Gemüse, Salat, Soße" },
-        { "NAME": "Döner und Pommes", "IMAGE": "showcase4.jpg", "DESCRIPTION": "Zutaten: Döner, Pommes, Tomaten, Salat, Soße" },
-        { "NAME": "Wrap mit Pommes", "IMAGE": "showcase5.jpg", "DESCRIPTION": "Zutaten: Wrap, Pommes, Soße" },
-        { "NAME": "Pizza Salami", "IMAGE": "showcase6.jpg", "DESCRIPTION": "Zutaten: Tomatensauce, Käse, Salami" },
-        { "NAME": "Frischer Salat", "IMAGE": "showcase7.jpg", "DESCRIPTION": "Zutaten: Salat, Tomaten, Gurken, Zwiebeln, Feta" },
-        { "NAME": "Hähnchen mit Pommes", "IMAGE": "showcase8.jpg", "DESCRIPTION": "Zutaten: Gegrilltes Hähnchen, Pommes, Zitrone, Petersilie" }
+        { "NAME": "Döner Kebab", "IMAGE": "showcase1.webp", "DESCRIPTION": "Zutaten: Fladenbrot, Dönerfleisch, Salat, Tomaten, Zwiebeln, Soße" },
+        { "NAME": "Döner Drehspieß", "IMAGE": "showcase2.webp", "DESCRIPTION": "Perfekt gegartes Fleisch vom Drehspieß" },
+        { "NAME": "Gemüse-Wrap", "IMAGE": "showcase3.webp", "DESCRIPTION": "Zutaten: Tortilla, frisches Gemüse, Salat, Soße" },
+        { "NAME": "Döner und Pommes", "IMAGE": "showcase4.webp", "DESCRIPTION": "Zutaten: Döner, Pommes, Tomaten, Salat, Soße" },
+        { "NAME": "Wrap mit Pommes", "IMAGE": "showcase5.webp", "DESCRIPTION": "Zutaten: Wrap, Pommes, Soße" },
+        { "NAME": "Pizza Salami", "IMAGE": "showcase6.webp", "DESCRIPTION": "Zutaten: Tomatensauce, Käse, Salami" },
+        { "NAME": "Frischer Salat", "IMAGE": "showcase7.webp", "DESCRIPTION": "Zutaten: Salat, Tomaten, Gurken, Zwiebeln, Feta" },
+        { "NAME": "Hähnchen mit Pommes", "IMAGE": "showcase8.webp", "DESCRIPTION": "Zutaten: Gegrilltes Hähnchen, Pommes, Zitrone, Petersilie" }
       ]
     },
     "TEAM": {

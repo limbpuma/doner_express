@@ -16,7 +16,7 @@ const WhatsAppButton = ({ chatMessage, statusMessage }) => {
       <FloatingWhatsApp
         phoneNumber="+491738258352"
         accountName="Express Döner"
-        avatar="../img/about/express_whatsapp.jpg"
+        avatar="../img/about/express_whatsapp.webp"
         statusMessage={statusMessage}
         chatMessage={chatMessage}
         placeholder="Type a message..."

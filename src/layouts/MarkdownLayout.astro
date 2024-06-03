@@ -1,6 +1,6 @@
 ---
 const { title } = Astro.props;
-const logoUrl = "/img/logo/logo.png";
+const logoUrl = "/img/logo/logo.webp";
 import Footer from "@/components/sections/Footer.astro";
 ---
 
@@ -14,9 +14,9 @@ import Footer from "@/components/sections/Footer.astro";
   <body class="bg-black text-white font-sans leading-normal tracking-normal">
     <header class="bg-gray-900">
       <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="/" class="flex items-center">
-          <img src={logoUrl} alt="Express Döner Logo" class="h-12 mr-3">
-          <span class="text-xl font-bold text-orange-400">Express Döner</span>
+        <a class="flex items-center  space-x-2 font-bold uppercase text-xl ">
+          <i class="fas fa-utensils text-yellow-500 text-xl "></i>
+          <span>Express Döner</span>
         </a>
         <nav class="space-x-4">
           <a href="../" class="font-bold text-orange-400 hover:text-orange-600">Home</a>
