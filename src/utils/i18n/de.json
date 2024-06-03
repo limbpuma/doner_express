@@ -119,16 +119,16 @@
       "DESCRIPTION": "Lernen Sie unsere talentierten Köche kennen.",
       "MEMBERS": [
         {
-          "NAME": "Rosalina Dumble",
+          "NAME": "Mehmet Emin",
           "ROLE": "Chef",
-          "IMAGE": "team01.png",
-          "DESCRIPTION": "Rosalina ist bekannt für ihre innovativen Rezepte und ihre Leidenschaft für regionale Zutaten."
+          "IMAGE": "team01.webp",
+          "DESCRIPTION": "Mehmet ist bekannt für ihre innovativen Rezepte und ihre Leidenschaft für regionale Zutaten."
         },
         {
-          "NAME": "Carlos Heinz",
+          "NAME": "Akin",
           "ROLE": "Sous Chef",
-          "IMAGE": "team02.png",
-          "DESCRIPTION": "Carlos spezialisiert sich auf mediterrane Küche und bringt eine dynamische Energie ins Team."
+          "IMAGE": "team02.webp",
+          "DESCRIPTION": "Akin spezialisiert sich auf mediterrane Küche und bringt eine dynamische Energie ins Team."
         }
       ]
     },
@@ -159,13 +159,13 @@
       "OPENING_HOURS": {
           "LABEL": "Öffnungszeiten",
           "TIMES": {
-              "MONDAY": "10:00 - 22:00",
-              "TUESDAY": "10:00 - 22:00",
-              "WEDNESDAY": "10:00 - 22:00",
-              "THURSDAY": "10:00 - 22:00",
-              "FRIDAY": "10:00 - 22:00",
-              "SATURDAY": "10:00 - 22:00",
-              "SUNDAY": "10:00 - 22:00"
+              "MONTAG": "10:00 - 22:00",
+              "DIENSTAG": "10:00 - 22:00",
+              "MITTWOCH": "10:00 - 22:00",
+              "DONNERSTAG": "10:00 - 22:00",
+              "FREITAG": "10:00 - 22:00",
+              "SAMSTAG": "10:00 - 22:00",
+              "SONNTAG": "10:00 - 22:00"
           }
       },
       "CONTACT": {

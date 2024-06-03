@@ -23,8 +23,8 @@ const i18n = getI18N({currentLocale});
         <div class="flex flex-wrap justify-center gap-4">
             {i18n.TEAM.MEMBERS.map(members => (
                 <div class="w-full md:w-1/3 px-4 mb-8">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg">
-                        <img src={`img/team/${members.IMAGE}`} alt={members.NAME} class="w-full opacity-90 transition duration-300 ease-in-out hover:scale-105">
+                    <div class="relative overflow-hidden rounded-lg shadow-lg h-96">
+                        <img src={`img/team/${members.IMAGE}`} alt={members.NAME} class="w-full h-full object-cover opacity-90 transition duration-300 ease-in-out hover:scale-105">
                         <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black to-transparent opacity-100">
                             <div class="p-4 text-center transition-transform transform duration-300 ease-in-out hover:-translate-y-5">
                                 <i class="fas fa-user-tie text-yellow-500 text-xl mb-2"></i>
