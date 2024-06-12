@@ -136,7 +136,7 @@
     ,
     "FOOTER": {
       "ABOUT": {
-        "DESCRIPTION": "Express Döner steht für Qualität und hervorragenden Service in Dortmund. Besuchen Sie uns auf der Gleiwitzstraße 269A, 44328 Dortmund.",
+        "DESCRIPTION": "Express Döner steht für Qualität und hervorragenden Service in Dortmund Scharnhorst.",
         "IMPRINT": {
             "TEXT": "Impressum",
             "URL": "https://www.expressdoener.de/impressum"
@@ -153,13 +153,7 @@
       "OPENING_HOURS": {
           "LABEL": "Öffnungszeiten",
           "TIMES": {
-              "MONTAG": "10:00 - 22:00",
-              "DIENSTAG": "10:00 - 22:00",
-              "MITTWOCH": "10:00 - 22:00",
-              "DONNERSTAG": "10:00 - 22:00",
-              "FREITAG": "10:00 - 22:00",
-              "SAMSTAG": "10:00 - 22:00",
-              "SONNTAG": "10:00 - 22:00"
+            "JEDEN TAG": "10:00 - 22:00"
           }
       },
       "CONTACT": {
