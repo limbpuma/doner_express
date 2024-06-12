@@ -123,12 +123,6 @@
           "ROLE": "Chef",
           "IMAGE": "team01.webp",
           "DESCRIPTION": "Mehmet ist bekannt für ihre innovativen Rezepte und ihre Leidenschaft für regionale Zutaten."
-        },
-        {
-          "NAME": "Akin",
-          "ROLE": "Sous Chef",
-          "IMAGE": "team02.webp",
-          "DESCRIPTION": "Akin spezialisiert sich auf mediterrane Küche und bringt eine dynamische Energie ins Team."
         }
       ]
     },

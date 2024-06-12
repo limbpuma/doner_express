@@ -1,0 +1,92 @@
+DONEREXPRESS
+ ┣ public
+ ┃  ┣ img
+ ┃  ┃  ┣ about
+ ┃  ┃  ┃  ┣ .DS_Store
+ ┃  ┃  ┃  ┣ express_whatsapp.webp
+ ┃  ┃  ┃  ┗ signature.png
+ ┃  ┃  ┣ bg
+ ┃  ┃  ┃  ┣ .DS_Store
+ ┃  ┃  ┃  ┣ features-bg.webp
+ ┃  ┃  ┃  ┣ footer-bg.webp
+ ┃  ┃  ┃  ┣ header-bg.webp
+ ┃  ┃  ┃  ┣ header-img.webp
+ ┃  ┃  ┃  ┣ meal-bg.webp
+ ┃  ┃  ┃  ┣ offer.webp
+ ┃  ┃  ┃  ┣ team-bg.webp
+ ┃  ┃  ┃  ┗ test-bg.webp
+ ┃  ┃  ┣ express
+ ┃  ┃  ┃  ┗ express_doener.webp
+ ┃  ┃  ┣ flags
+ ┃  ┃  ┃  ┣ de.webp
+ ┃  ┃  ┃  ┗ en.webp
+ ┃  ┃  ┣ logo
+ ┃  ┃  ┃  ┗ .DS_Store
+ ┃  ┃  ┣ showcase
+ ┃  ┃  ┃  ┣ .DS_Store
+ ┃  ┃  ┃  ┣ showcase1.webp
+ ┃  ┃  ┃  ┣ showcase2.webp
+ ┃  ┃  ┃  ┣ showcase3.webp
+ ┃  ┃  ┃  ┣ showcase4.webp
+ ┃  ┃  ┃  ┣ showcase5.webp
+ ┃  ┃  ┃  ┣ showcase6.webp
+ ┃  ┃  ┃  ┣ showcase7.webp
+ ┃  ┃  ┃  ┗ showcase8.webp
+ ┃  ┃  ┣ team
+ ┃  ┃  ┃  ┣ .DS_Store
+ ┃  ┃  ┃  ┣ team01.webp
+ ┃  ┃  ┃  ┗ team02.webp
+ ┃  ┃  ┗ testimonial
+ ┃  ┃     ┣ .DS_Store
+ ┃  ┃     ┣ arrow-box.webp
+ ┃  ┃     ┣ avatar01.webp
+ ┃  ┃     ┣ avatar02.webp
+ ┃  ┃     ┣ avatar03.webp
+ ┃  ┃     ┗ star.webp
+ ┃  ┣ menu
+ ┃  ┃  ┗ Menu_express.pdf
+ ┃  ┣ video
+ ┃  ┃  ┗ doenerexpress.webm
+ ┃  ┣ about.txt
+ ┃  ┣ android-chrome-192x192.png
+ ┃  ┣ android-chrome-512x512.png
+ ┃  ┣ apple-touch-icon.png
+ ┃  ┣ favicon-16x16.png
+ ┃  ┣ favicon-32x32.png
+ ┃  ┣ favicon.ico
+ ┃  ┗ site.webmanifest
+ ┣ src
+ ┃  ┣ components
+ ┃  ┃  ┣ const
+ ┃  ┃  ┣ function
+ ┃  ┃  ┣ pages
+ ┃  ┃  ┣ sections
+ ┃  ┃  ┣ CustomCookieConsent.jsx
+ ┃  ┃  ┣ Tabs.jsx
+ ┃  ┃  ┗ WhatsAppButton.jsx
+ ┃  ┣ layouts
+ ┃  ┣ pages
+ ┃  ┃  ┣ en
+ ┃  ┃  ┣ abg-policy.de.md
+ ┃  ┃  ┣ abg-policy.en.md
+ ┃  ┃  ┣ legal-advice.de.md
+ ┃  ┃  ┣ legal-advice.en.md
+ ┃  ┃  ┣ privacy-policy.de.md
+ ┃  ┃  ┗ privacy-policy.en.md
+ ┃  ┣ styles
+ ┃  ┃  ┗ global.css
+ ┃  ┣ utils
+ ┃  ┃  ┗ i18n
+ ┃  ┃     ┣ de.json
+ ┃  ┃     ┣ en.json
+ ┃  ┃     ┣ index.ts
+ ┃  ┃     ┗ utils.ts
+ ┃  ┗ env.d.ts
+ ┣ .gitignore
+ ┣ astro.config.mjs
+ ┣ package-lock.json
+ ┣ package.json
+ ┣ postcss.config.js
+ ┣ README.md
+ ┣ tailwind.config.js
+ ┗ tsconfig.json

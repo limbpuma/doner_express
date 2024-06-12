@@ -122,12 +122,6 @@
         "ROLE": "Chef & Founder",
         "IMAGE": "team01.webp",
         "DESCRIPTION": "Mehmet is known for her innovative recipes and passion for local ingredients."
-      },
-      {
-        "NAME": "Akin",
-        "ROLE": "Sous Chef",
-        "IMAGE": "team02.webp",
-        "DESCRIPTION": "Akin specializes in Mediterranean cuisine and brings dynamic energy to the team."
       }
     ]
   }
