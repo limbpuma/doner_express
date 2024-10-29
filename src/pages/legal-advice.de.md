@@ -5,7 +5,7 @@ layout: ../layouts/MarkdownLayout.astro
 
 ### Impressum
 
-Mehmet Kocak Kocak<br />
+Mehmet Kocak<br />
 Express Döner<br />
 Gleiwitzstraße 269A<br />
 44328 Dortmund
@@ -17,10 +17,9 @@ E-Mail: kocakmehmetemin085@gmail.com
 
 ### Umsatzsteuer-ID
 
-Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-DE999999999
+Die Umsatzsteuer-Identifikationsnummer wird auf Anfrage gemäß § 27 a Umsatzsteuergesetz bereitgestellt. Bitte kontaktieren Sie uns für weitere Informationen.
 
-### Verbraucherstreitbeilegung/Universalschlichtungsstelle
+### Verbraucherstreitbeilegung / Universalschlichtungsstelle
 
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
